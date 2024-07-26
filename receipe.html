@@ -1,0 +1,88 @@
+<!-- 1. Write HTML (use ordered and unordered lists) for the following recipe of “Friendship
+Cookies” to appear in your webpage:
+1. Combine sugar and cocoa and stir until very smooth. Add butter and milk.
+2. Microwave on high for 6 minutes.
+3. Slowly add and swirl any one or combination of the following ingredients:
+o oats
+o vanilla
+o nuts
+4. Microwave on high for 1 minute. Drop by teaspoon on a sheet of waxed paper. Chill
+until set.
+2. Add a definition list to the page to show that the word “glunch” means “a look of disdain,
+anger, or displeasure” and that the word “glumpy” means “sullen, morose, or sulky.”
+3. Add "© 2024, MCA HITK” at the footer of the page.
+4. Create a navigation menu/bar with options to navigate to the recipe and the definition list.
+5. Add one or more images to the page according to the following specification:
+a) display alternate text for the images
+b) resize the Width and Height of an image to 100 pixels each
+6. Apply styling to the web page to set formatting for text tags and lists. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friendship Cookies and More</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation menu -->
+	<nav>
+		<a href="receipe.html">Recipe</a>
+		<a href="description.html">Definitions</a>
+	</nav>
+	
+	<!-- Recipe section -->
+	<h1>Friendship Cookies</h1>
+	<ol class="recipe-list">
+		<li>Combine sugar and cocoa and stir until very smooth. Add butter and milk.</li>
+		<li>Microwave on high for 6 minutes.</li>
+		<li>Slowly add and swirl any one or combination of the following ingredients:
+			<ul>
+				<li>oats</li>
+				<li>vanilla</li>
+				<li>nuts</li>
+			</ul>
+		</li>
+		<li>Microwave on high for 1 minute. Drop by teaspoon on a sheet of waxed paper. Chill until set.</li>
+	</ol>
+	
+	<!-- Image of cookies -->
+	<!-- <img src="cookies.jpg" alt="Delicious friendship cookies" width="100" height="100"> -->
+
+  
+  <div class="gallery">
+    <a target="_blank" href="cookies.jpg">
+      <img src="cookies.jpg" alt="cookies1">
+    </a>
+    <div class="desc">Happy Cookies</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="cook1.jfif">
+      <img src="cook1.jfif" alt="cookies2">
+    </a>
+    <div class="desc">Tasty Cookies</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="cook2.jfif">
+      <img src="cook2.jfif" alt="cookies3">
+    </a>
+    <div class="desc">Delicious Cookies</div>
+  </div>
+
+  <h1>Definitions</h1>
+  <dl class="definition-list">
+	  <dt>Glunch</dt>
+	  <dd>A look of disdain, anger, or displeasure</dd>
+	  <dt>Glumpy</dt>
+	  <dd>Sullen, morose, or sulky</dd>
+  </dl>
+  
+<!-- Footer -->
+<footer class="footer">
+        <p>&copy; 2024, MCA HITK</p>
+</footer>	
+	
+	
+</body>
+</html>
